@@ -101,7 +101,7 @@ b.boop(.9, .4)
 b.boop(1.3, .6)
 b.boop(1.1, .3)
 b.boop(1.1, .3)
-b.boop(1.1, .3)
+b.boop(1.1, .3) # End of flappy-bird
 
 
 #b.reset()
