@@ -28,7 +28,7 @@
     <child link="BaseToServo5"/>
     <origin rpy="0 0 0" xyz="0 0 .055"/>
     <axis xyz="0 0 1"/>
-    <limit lower="-3.142" upper="3.141" effort="30" velocity="1"/>
+    <limit lower="-2.23" upper="2.23" effort="30" velocity="1"/>
   </joint>
 
   <link name="BaseToServo5">
@@ -46,7 +46,7 @@
     <child link="Servo5ToServo4"/>
     <origin rpy="0 0 0" xyz="0 0 .016"/>
     <axis xyz="0 1 0"/>
-    <limit lower="-.924" upper="1.57" effort="30" velocity="1"/>
+    <limit lower="-1.763" upper=".9643" effort="30" velocity="1"/>
   </joint>
 
   <link name="Servo5ToServo4">
@@ -64,7 +64,7 @@
     <child link="Servo4ToServo3"/>
     <origin rpy="0 0 0" xyz="0 0 .096"/>
     <axis xyz="0 1 0"/>
-    <limit lower="-2.33" upper="2.33" effort="30" velocity="1"/>
+    <limit lower="-2.234" upper="2.129" effort="30" velocity="1"/>
   </joint>
 
   <link name="Servo4ToServo3">
@@ -82,7 +82,7 @@
     <child link="Servo3ToGripper"/>
     <origin rpy="0 0 0" xyz="0 0 .1065"/>
     <axis xyz="0 1 0"/>
-    <limit lower="-2.33" upper="1.7" effort="30" velocity="1"/>
+    <limit lower="-2.234" upper="1.885" effort="30" velocity="1"/>
   </joint>
 
   <link name="Servo3ToGripper">
@@ -107,7 +107,7 @@
     <child link="Gripper"/>
     <origin rpy="0 0 0" xyz="0 0 .051"/>
     <axis xyz="0 0 1"/>
-    <limit lower="-3.142" upper="3.141" effort="30" velocity="1"/>
+    <limit lower="-2.234" upper="2.129" effort="30" velocity="1"/>
   </joint>
 
   <link name="Gripper">
